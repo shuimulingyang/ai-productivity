@@ -5,6 +5,118 @@ const PRODUCTIVITY_DATA = {
   last_updated: "2026-04-22",
   articles: [
     {
+      id: "shrm-state-ai-hr-2026",
+      title: "The State of AI in HR 2026",
+      source: "SHRM",
+      date: "2026-01",
+      dept: "hr",
+      sub_dept: "performance",
+      lang: "en",
+      url: "https://www.shrm.org/topics-tools/research/state-of-ai-hr-2026/full-report",
+      summary: "SHRM年度报告：39%的HR从业者已在职能中应用AI，87%预计进一步扩大采用，大型企业Agentic AI采用率达48%，代理型AI到2027年预计增长327%。",
+      key_insights: [
+        { zh: "39%的HR从业者已在职能中部署AI，87%预计未来加速采用，Agentic AI在大型企业采用率达48%", en: "39% of HR professionals have deployed AI; 87% forecast further adoption; agentic AI hits 48% in large enterprises" },
+        { zh: "AI将绩效评估草稿撰写时间减少30–60%，同时提升多维度反馈的整合质量与一致性", en: "AI reduces performance review drafting time by 30–60% while improving consistency of multi-source feedback integration" },
+        { zh: "Agentic AI在HR领域到2027年预计增长327%，从任务自动化升级为跨系统自主决策执行", en: "Agentic AI in HR projected to grow 327% by 2027, evolving from task automation to cross-system autonomous execution" }
+      ]
+    },
+    {
+      id: "bersin-learning-tech-ai-2026",
+      title: "The Enterprise Learning Tech Market Quickly Transforms Around AI",
+      source: "Josh Bersin",
+      date: "2026-02",
+      dept: "hr",
+      sub_dept: "l-and-d",
+      lang: "en",
+      url: "https://joshbersin.com/2026/02/the-enterprise-learning-tech-market-quickly-transforms-around-ai/",
+      summary: "Josh Bersin分析全球3500亿美元L&D市场正被AI重塑：个性化学习路径、AI内容生成与技能图谱成为核心战场，但22%的企业仍因AI内容可靠性问题而延迟落地。",
+      key_insights: [
+        { zh: "全球L&D市场规模超3500亿美元，AI正将学习平台从内容分发工具升级为技能发展智能引擎", en: "Global L&D market exceeds $350B; AI is transforming platforms from content delivery to intelligent skills development engines" },
+        { zh: "61%的企业将领导力培训列为首要L&D重点，AI实现个性化路径推荐和实时技能差距检测", en: "61% of organizations prioritize leadership training; AI enables personalized path recommendations and real-time skills gap detection" },
+        { zh: "22%的企业因AI生成内容可靠性存疑而延缓落地，内容质量治理成为L&D AI化的关键瓶颈", en: "22% of enterprises delay L&D AI adoption citing unreliable AI-generated content; quality governance is the critical bottleneck" }
+      ]
+    },
+    {
+      id: "aihr-workforce-analytics-2026",
+      title: "10 Workforce Analytics Trends Shaping HR in 2026",
+      source: "AIHR",
+      date: "2026-01",
+      dept: "hr",
+      sub_dept: "workforce-planning",
+      lang: "en",
+      url: "https://www.aihr.com/blog/workforce-analytics-trends/",
+      summary: "人力分析正从「描述性」升级为「预测性」：AI离职预测模型准确率达80%+，92%的CHRO预计进一步整合AI，人力规划周期从年度转向持续动态模式。",
+      key_insights: [
+        { zh: "AI离职预测模型准确率达80%+，使HR可提前3–6个月识别高风险人才并介入保留", en: "AI turnover prediction models achieve 80%+ accuracy, enabling HR to identify at-risk talent 3–6 months in advance" },
+        { zh: "92%的CHRO预计进一步整合AI分析工具，人力规划正从年度静态计划转向持续动态模式", en: "92% of CHROs anticipate further AI analytics integration; workforce planning shifts from annual static to continuous dynamic cycles" },
+        { zh: "技能数据与业务数据的实时整合使编制决策从「经验判断」转向「数据驱动」，HC Review效率提升显著", en: "Real-time integration of skills and business data shifts headcount decisions from gut-feel to data-driven, improving HC Review efficiency" }
+      ]
+    },
+    {
+      id: "payscale-compensation-best-practices-2026",
+      title: "Payscale 2026 Compensation Best Practices Report",
+      source: "Payscale",
+      date: "2026-01",
+      dept: "hr",
+      sub_dept: "compensation",
+      lang: "en",
+      url: "https://www.payscale.com/featured-content/cbpr",
+      summary: "2026年薪酬管理进入「战略对齐年」：AI技能薪资溢价同比上涨56%，但仅14%企业为AI技能员工提供更高基薪，薪酬公平分析成为企业优先议题。",
+      key_insights: [
+        { zh: "AI技能薪资溢价2024年上涨56%（2023年为25%），但仅14%的企业将其纳入正式基薪体系", en: "AI skills wage premium jumped 56% in 2024 (up from 25% in 2023); only 14% of companies formalize it in base pay structures" },
+        { zh: "60%的企业已将薪酬公平分析列为当前或计划中的优先项目，AI大幅压缩分析周期与数据处理成本", en: "60% of organizations have pay equity analysis as a current or planned priority; AI compresses analysis cycles and data costs significantly" },
+        { zh: "AI薪酬Agent实现跨职级、跨地区、跨市场数据的实时对标，将传统数周的薪酬审查压缩至小时级", en: "AI compensation agents enable real-time benchmarking across levels, geographies, and markets, compressing weeks-long reviews to hours" }
+      ]
+    },
+    {
+      id: "enboarder-ai-onboarding-2026",
+      title: "AI Onboarding Tools: Your Guide to AI-Powered Onboarding in 2026",
+      source: "Enboarder",
+      date: "2026-01",
+      dept: "hr",
+      sub_dept: "employee-exp",
+      lang: "en",
+      url: "https://enboarder.com/blog/ai-onboarding-tool-guide-2026/",
+      summary: "HR AI市场规模2025年达69.9亿美元，预计2029年达140.8亿美元（CAGR 19.1%），AI驱动的入职自动化将新员工从「信息过载」转向「个性化引导体验」。",
+      key_insights: [
+        { zh: "HR AI市场2025年规模69.9亿美元，预计2029年翻倍达140.8亿美元，年复合增长率19.1%", en: "HR AI market valued at $6.99B in 2025, projected to reach $14.08B by 2029 at 19.1% CAGR" },
+        { zh: "AI入职工具实现24/7全天候支持、角色个性化内容推送，大幅减少HR重复性答疑工单量", en: "AI onboarding tools provide 24/7 support and role-specific personalization, significantly reducing repetitive HR ticket volume" },
+        { zh: "个性化AI入职流程将新员工达到生产力所需时间缩短20–30%，同时提升首年留任率", en: "Personalized AI onboarding reduces time-to-productivity by 20–30% while measurably improving first-year retention rates" }
+      ]
+    },
+    {
+      id: "mihcm-ai-performance-mgmt-2026",
+      title: "AI in Performance Management: The Complete Guide 2026",
+      source: "MIHCM",
+      date: "2026-02",
+      dept: "hr",
+      sub_dept: "performance",
+      lang: "en",
+      url: "https://mihcm.com/resources/blog/ai-in-performance-management-the-complete-guide-2026/",
+      summary: "AI正全面重塑绩效管理：从年度评估升级为持续反馈，ML/NLP整合多来源数据生成SMART目标建议、技能差距检测和离职风险预测，评估草稿撰写时间减少30–60%。",
+      key_insights: [
+        { zh: "AI自动整合上级评价、同伴反馈与客户数据，将绩效评估草稿撰写时间减少30–60%", en: "AI auto-aggregates manager notes, peer reviews and customer data, cutting performance review drafting time by 30–60%" },
+        { zh: "ML/NLP驱动的绩效系统可自动生成SMART目标建议、检测技能差距并输出个人发展路径", en: "ML/NLP-powered systems auto-generate SMART goal suggestions, detect skills gaps and output personalized development paths" },
+        { zh: "AI将绩效管理从「年度回顾」转向「持续实时反馈」，管理者可基于数据而非印象做出人才决策", en: "AI shifts performance management from annual review to continuous real-time feedback, enabling data-driven talent decisions" }
+      ]
+    },
+    {
+      id: "candoriq-pay-transparency-ai-2026",
+      title: "Pay Transparency Trends 2026: How AI and Pay Laws Are Reshaping Compensation",
+      source: "CandorIQ",
+      date: "2026-02",
+      dept: "hr",
+      sub_dept: "compensation",
+      lang: "en",
+      url: "https://www.candoriq.com/blog/pay-transparency-trends-in-2026-how-equity-ai-and-pay-laws-are-reshaping-compensation",
+      summary: "薪酬透明度立法浪潮叠加AI技能溢价分化，倒逼企业重构薪酬体系：55%的企业尚未为AI技能提供额外激励，而监管压力正快速将薪酬公平从「道德议题」转变为「合规义务」。",
+      key_insights: [
+        { zh: "55%的企业未为AI技能提供任何额外激励，在AI人才竞争加剧背景下形成潜在的人才流失风险", en: "55% of companies offer no premiums for AI skillsets, creating retention risk as AI talent competition intensifies" },
+        { zh: "薪酬透明度法规在多个司法管辖区生效，AI薪酬分析工具帮助企业快速识别薪酬差距并满足披露要求", en: "Pay transparency laws taking effect across jurisdictions; AI analytics tools help companies identify gaps and meet disclosure requirements fast" },
+        { zh: "AI技能薪资溢价在不同岗位类别间分化显著，企业须建立动态薪酬区间以应对快速变化的市场定价", en: "AI skills premiums vary significantly by job family, requiring dynamic pay bands to keep pace with rapidly shifting market pricing" }
+      ]
+    },
+    {
       id: "fortune-cfo-ai-transformation-2025",
       title: "AI in Finance 2026: CFOs Predict Transformation, Not Just Efficiency Gains",
       source: "Fortune",
